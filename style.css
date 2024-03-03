@@ -1,0 +1,74 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 45vw;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  background-color: #f3eae3;
+}
+#container {
+  display: flex;
+  margin: auto;
+  position: absolute;
+  top: 15%;
+  left: 25%;
+}
+#image {
+  background-image: url("./images/image-product-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 25vw;
+  height: 70vh;
+  border-radius: 15px 0 0 15px;
+}
+#content {
+  padding-left: 3vw;
+  background-color: white;
+  width: 23vw;
+  height: 70vh;
+  border-radius: 0 15px 15px 0;
+}
+#content > p {
+  color: gray;
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
+}
+#content > h1 {
+  width: 15vw;
+}
+#content > h4 {
+  text-align: justify;
+  color: gray;
+  width: 20vw;
+  line-height: 2;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: lighter;
+}
+#price {
+  display: flex;
+  gap: 1vw;
+}
+#price > h4 {
+  color: gray;
+  text-decoration: line-through;
+}
+#price > h1 {
+  color: #3d8168;
+}
+button {
+  width: 18vw;
+  height: 7vh;
+  border: none;
+  outline: none;
+  background-color: #3d8168;
+  color: white;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #013220;
+}
